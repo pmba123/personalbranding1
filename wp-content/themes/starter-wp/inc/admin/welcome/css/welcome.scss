@@ -1,0 +1,53 @@
+//WELCOME CSS
+@import 'neat';
+
+@media only screen and (min-width: 768px) {
+    .resources {
+         @include grid-collapse();
+        .item {
+            @include grid-column(4);
+        }
+    }
+    .theme-extension { 
+        @include grid-column(5);
+        min-height: 200px;
+    }
+}
+.theme-name {
+    .version {
+        font-size: 12px;
+        background: #fff;
+        padding: 5px 8px;
+        margin-left: 10px;
+    }
+}
+.theme-link {
+    position: relative;
+    overflow: auto;
+    margin: 16px 0;
+    h3 {
+        margin-top: 1em;
+    }
+}
+.theme-extension {
+    margin-top: 25px;
+    padding: 25px;
+    background: #fff;
+    border-left: 4px solid #fc3;
+    min-height: 200px;
+}
+.resources {
+    .item {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        .image-link {
+            border: 1px solid #fff;
+            padding: 5px;
+            text-align: center;
+            display: block;
+        }
+        .description {
+            margin-bottom: 15px;
+        }
+    }
+}

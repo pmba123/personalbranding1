@@ -1,0 +1,820 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Starter WP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-20 10:34+0000\n"
+"PO-Revision-Date: 2018-05-22 16:18+0000\n"
+"Last-Translator: iografica <info@iograficathemes.com>\n"
+"Language-Team: Italian\n"
+"Language: it-IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/admin/welcome/welcome-screen.php:41
+#, php-format
+msgid ""
+"! You can read documentation to how get the most out of your new theme on "
+"the %swelcome screen%s."
+msgstr ""
+"! Puoi leggere la documentazione su come ottenere il massimo dal tuo nuovo "
+"tema nella %spagina di benvenuto%s."
+
+#: inc/admin/welcome/sections/getting-started.php:25
+#, php-format
+msgid ""
+"%s supports the Theme Customizer for all theme settings. Click \"Customize\" "
+"to start customize your site."
+msgstr ""
+"%s supporta il Customizer per tutte le impostazioni del tema. Fai clic su "
+"\"Personalizza\" per iniziare a personalizzare il tuo sito."
+
+#: inc/admin/welcome/sections/wp-resources.php:18
+#, php-format
+msgid ""
+"%s works well with the following WordPress free and premium plugins and "
+"services. Feel free to give they a look."
+msgstr ""
+"%s funziona bene con i seguenti plugin e servizi, gratuiti e premium, di "
+"WordPress. Sentiti libero di dare loro un'occhiata."
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:93 inc/template-tags.php:116
+msgid ", "
+msgstr ", "
+
+#. %s: post date
+#: inc/template-tags.php:80
+#, php-format
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr "<span class=\"screen-reader-text\">Pubblicato il</span> %s"
+
+#: inc/admin/customizer/customizer.php:520
+msgid "Accent color"
+msgstr "Accent color"
+
+#: inc/admin/metaboxes/metaboxes.php:49
+msgid "Add a subtitle"
+msgstr "Aggiungi sottotitolo"
+
+#: inc/admin/metaboxes/metaboxes.php:83
+msgid "Add an images gallery"
+msgstr "Aggiungi immagini alla galleria"
+
+#: inc/template-widgets.php:54
+#, php-format
+msgid "Add widgets here to appear in footer %d."
+msgstr "Aggiungi dei widget per mostrarli nel footer %d."
+
+#: inc/template-widgets.php:38
+#, php-format
+msgid "Add widgets here to appear in header %d."
+msgstr "Aggiungi dei widget per mostrarli nell'header  %d."
+
+#: inc/template-widgets.php:24 inc/plugins/woocommerce-functions.php:34
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Aggiungi dei widget per mostrarli nella sidebar."
+
+#: inc/admin/welcome/sections/getting-started.php:13
+msgid "Add Your Review"
+msgstr "Scrivi la tua recensione"
+
+#: inc/admin/metaboxes/metaboxes.php:57 inc/admin/metaboxes/metaboxes.php:64
+msgid "Add your text or shortcode here"
+msgstr "Aggiungi del testo o uno shortcode qui"
+
+#: inc/admin/metaboxes/metaboxes.php:63
+msgid "After Content"
+msgstr "Dopo Contenuto"
+
+#: inc/template-widgets.php:102
+msgid "An extended version of the recent posts widget."
+msgstr "Una versione avanzata del widget per articoli recenti."
+
+#: inc/admin/customizer/customizer.php:202
+msgid "Auto"
+msgstr "Auto"
+
+#: inc/admin/customizer/customizer.php:136
+msgid "Background Image"
+msgstr "Immagine Background"
+
+#: inc/admin/customizer/customizer.php:259
+msgid "Background min height"
+msgstr "Altezza minima background"
+
+#: inc/admin/customizer/customizer.php:216
+msgid "Background position"
+msgstr "Posizione background"
+
+#: inc/admin/customizer/customizer.php:241
+msgid "Background repeat"
+msgstr "Ripetizione background"
+
+#: inc/admin/customizer/customizer.php:197
+msgid "Background size"
+msgstr "Dimensione background"
+
+#: inc/admin/welcome/sections/wp-resources.php:85
+msgid "Beaver Builder"
+msgstr "Beaver Builder"
+
+#: inc/admin/metaboxes/metaboxes.php:56
+msgid "Before Content"
+msgstr "Prima Contenuto"
+
+#. Name of the template
+msgid "Blank Content"
+msgstr "Contenuto Vuoto"
+
+#: inc/admin/customizer/customizer.php:157
+msgid "Brand padding"
+msgstr "Spaziatura Brand"
+
+#: inc/admin/customizer/customizer.php:312
+msgid "Build your awesome website"
+msgstr "Realizza il tuo fantastico sito web"
+
+#. %s: post author
+#: inc/template-tags.php:49
+#, php-format
+msgid "By %s"
+msgstr "Da %s"
+
+#: inc/template-tags.php:102
+msgid "Category: "
+msgstr "Categoria: "
+
+#: inc/admin/customizer/customizer.php:229
+msgid "Center Bottom"
+msgstr "Centro Basso"
+
+#: inc/admin/customizer/customizer.php:228
+msgid "Center Center"
+msgstr "Centro Centro"
+
+#: inc/admin/customizer/customizer.php:227
+msgid "Center Top"
+msgstr "Centro Alto"
+
+#: inc/admin/customizer/customizer.php:288
+msgid "Color scheme"
+msgstr "Schema colore"
+
+#: inc/admin/customizer/customizer.php:131
+msgid "Colors"
+msgstr "Colori"
+
+#: inc/template-tags.php:169
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr "Commenti chiusi."
+
+#: comments.php:26
+#, php-format
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] "Un commento"
+msgstr[1] "%1$s commenti"
+
+#: inc/admin/customizer/customizer.php:204
+msgid "Contain"
+msgstr "Contieni"
+
+#. %s: Name of current post
+#: inc/structure/starter-wp-content-single.php:87
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continua a leggere<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/admin/customizer/customizer.php:203
+msgid "Cover"
+msgstr "Ricopri"
+
+#: inc/admin/customizer/customizer.php:310
+msgid "Cusotm text"
+msgstr "Testo personalizzato"
+
+#: inc/template-custom-header.php:25
+msgid "Default Header Image"
+msgstr "Immagine Header di Default"
+
+#: inc/template-widgets.php:189
+msgid "Display post date?"
+msgstr "Mostrare la data articolo?"
+
+#: inc/template-widgets.php:199
+msgid "Display post excerpt?"
+msgstr "Mostrare il riassunto articolo?"
+
+#: inc/template-widgets.php:194
+msgid "Display post image?"
+msgstr "Mostrare l'immagine articolo?"
+
+#: inc/admin/customizer/customizer.php:664
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/admin/welcome/sections/wp-resources.php:88
+msgid ""
+"Easily build beautiful home pages, professional landing pages, and more with "
+"this content builder."
+msgstr ""
+"Costruisci facilmente bellissime pagine iniziali, pagine di destinazione "
+"professionali e molto altro con questo content builder."
+
+#: inc/admin/welcome/sections/wp-resources.php:104
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: inc/admin/customizer/customizer.php:337
+msgid "Easy to use"
+msgstr "Facile da utilizzare"
+
+#. %s: Name of current post
+#: inc/template-tags.php:136
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Modifica<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/admin/welcome/sections/wp-resources.php:123
+msgid "Elementor"
+msgstr "Elementor"
+
+#: inc/admin/welcome/sections/wp-resources.php:126
+msgid "Elementor is the most advanced frontend drag & drop page builder."
+msgstr ""
+"Elementor è il costruttore di pagine drag & drop più avanzato per frontend."
+
+#: inc/admin/customizer/customizer.php:391
+msgid "Enable features section"
+msgstr "Abilita sezione caratteristiche"
+
+#: inc/admin/customizer/customizer.php:328
+msgid "Enable hero section"
+msgstr "Abilita sezione hero"
+
+#: inc/admin/customizer/customizer.php:601
+msgid "Enable social in Footer"
+msgstr "Abilita social nel Footer"
+
+#: inc/admin/customizer/customizer.php:608
+msgid "Enable social in Header"
+msgstr "Abilita social nell'Header"
+
+#: inc/admin/customizer/customizer.php:303
+msgid "Enable top header"
+msgstr "Abilita il top header"
+
+#: inc/admin/welcome/sections/getting-started.php:10
+msgid "Enjoying the theme?"
+msgstr "Ti piace il tema?"
+
+#: inc/admin/customizer/customizer.php:615
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/admin/customizer/customizer.php:406
+msgid "Feature"
+msgstr "Caratteristica"
+
+#: inc/admin/customizer/customizer.php:436
+msgid "Feature heading"
+msgstr "Intestazione caratteristica"
+
+#: inc/admin/customizer/customizer.php:430
+msgid "Feature icon"
+msgstr "Icona caratteristica"
+
+#: inc/admin/customizer/customizer.php:442
+msgid "Feature text"
+msgstr "Testo caratteristica"
+
+#: inc/admin/customizer/customizer.php:121 
+#: inc/admin/customizer/customizer.php:398
+msgid "Features"
+msgstr "Caratteristiche"
+
+#: inc/template-widgets.php:52
+#, php-format
+msgid "Footer %d"
+msgstr "Footer %d"
+
+#: inc/template-setup.php:39
+msgid "Footer Menu"
+msgstr "Menu Footer"
+
+#. Name of the template
+msgid "Full Width"
+msgstr "Piena Larghezza"
+
+#: inc/admin/welcome/welcome-screen.php:45
+#, php-format
+msgid "Get started with %s"
+msgstr "Inizia con %s"
+
+#: inc/admin/welcome/sections/tabs.php:13
+msgid "Getting Started"
+msgstr "Inizia"
+
+#: inc/admin/customizer/customizer.php:629
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/admin/customizer/customizer.php:680
+msgid "Have access to a tons of new options and functionalities."
+msgstr "Avere accesso a un sacco di nuove opzioni e funzionalità."
+
+#: inc/template-widgets.php:36
+#, php-format
+msgid "Header %d"
+msgstr "Header %d"
+
+#: inc/admin/customizer/customizer.php:106
+msgid "Header Media"
+msgstr "Media Header"
+
+#: inc/admin/customizer/customizer.php:272
+msgid "Header media overlay color"
+msgstr "Colore sovrapposizione media Header"
+
+#: inc/admin/welcome/sections/tabs.php:11
+msgid ""
+"Here you can read the documentation and know how to get the most out of your "
+"new theme."
+msgstr ""
+"Qui puoi leggere la documentazione e sapere come ottenere il massimo dal tuo "
+"nuovo tema."
+
+#: inc/admin/customizer/customizer.php:116
+msgid "Hero"
+msgstr ""
+
+#: inc/admin/customizer/customizer.php:380
+msgid "Hero button link"
+msgstr "Link pulsante hero"
+
+#: inc/admin/customizer/customizer.php:365
+msgid "Hero button text"
+msgstr "Testo pulsante hero"
+
+#: inc/admin/customizer/customizer.php:350
+msgid "Hero text"
+msgstr "Testo hero"
+
+#: inc/admin/customizer/customizer.php:335
+msgid "Hero title"
+msgstr "Titolo hero"
+
+#. Author URI of the theme
+msgid "https://iograficathemes.com"
+msgstr "https://iograficathemes.com"
+
+#. URI of the theme
+msgid "https://iograficathemes.com/wordpress-themes/starter-wp"
+msgstr "https://iograficathemes.com/wordpress-themes/starter-wp"
+
+#: inc/structure/starter-wp-features-section.php:16 
+#: inc/structure/starter-wp-features-section.php:21 
+#: inc/structure/starter-wp-features-section.php:26 
+#: inc/admin/customizer/customizer.php:412 
+#: inc/admin/customizer/customizer.php:417 
+#: inc/admin/customizer/customizer.php:422
+msgid "icon-diamond"
+msgstr "icon-diamond"
+
+#: inc/admin/customizer/customizer.php:431
+msgid "Icons: simplelineicons.com"
+msgstr "Icone: simplelineicons.com"
+
+#: inc/admin/welcome/sections/getting-started.php:11
+msgid ""
+"If you like this theme why not leave us a review on WordPress.org?  We'd "
+"really appreciate it!"
+msgstr ""
+"Se ti piace questo tema, perché non lasciarci una recensione su WordPress."
+"org? Lo apprezzeremmo davvero!"
+
+#: inc/admin/customizer/customizer.php:650
+msgid "Instagram"
+msgstr "Instagram"
+
+#. Author of the theme
+msgid "iografica"
+msgstr "iografica"
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Sembra che non sia stato trovato nulla in questa posizione. Vuoi effettuare "
+"una ricerca?"
+
+#: template-parts/content-none.php:41
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Sembra che non riusciamo a trovare ciò che stai cercando. Forse una ricerca "
+"ti può aiutare."
+
+#: inc/admin/customizer/customizer.php:126
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/template-tags.php:153
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lascia un commento<span class=\"screen-reader-text\"> on %s</span>"
+
+#: inc/admin/customizer/customizer.php:223
+msgid "Left Bottom"
+msgstr "Sinistra Basso"
+
+#: inc/admin/customizer/customizer.php:222
+msgid "Left Center"
+msgstr "Sinistra Centro"
+
+#. Name of the template
+msgid "Left Sidebar"
+msgstr "Sidebar Sinistra"
+
+#: inc/admin/customizer/customizer.php:221
+msgid "Left Top"
+msgstr "Sinistra Alto"
+
+#: inc/admin/customizer/customizer.php:292
+msgid "Light"
+msgstr "Chiaro"
+
+#: inc/admin/customizer/customizer.php:657
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/structure/starter-wp-features-section.php:18 
+#: inc/structure/starter-wp-features-section.php:23 
+#: inc/structure/starter-wp-features-section.php:28 
+#: inc/admin/customizer/customizer.php:414 
+#: inc/admin/customizer/customizer.php:419 
+#: inc/admin/customizer/customizer.php:424
+msgid "Lorem usce volutpat lectus justo, ut suscipit felis congue ut."
+msgstr "Lorem usce volutpat lectus justo, ut suscipit felis congue ut."
+
+#: inc/structure/starter-wp-features-section.php:17 
+#: inc/structure/starter-wp-features-section.php:22 
+#: inc/structure/starter-wp-features-section.php:27 
+#: inc/admin/customizer/customizer.php:413 
+#: inc/admin/customizer/customizer.php:418 
+#: inc/admin/customizer/customizer.php:423
+msgid "Maecenas vel nulla"
+msgstr "Maecenas vel nulla"
+
+#: inc/admin/customizer/customizer.php:454 
+#: inc/admin/customizer/customizer.php:493
+msgid "Main Layout"
+msgstr "Layout Principale"
+
+#: inc/admin/customizer/customizer.php:175
+msgid "Main menu padding"
+msgstr "Spaziatura menu principale"
+
+#: inc/structure/starter-wp-header.php:188
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/admin/welcome/sections/getting-started.php:18
+#, php-format
+msgid ""
+"Need any help to setup and configure %s? Please have a look at our "
+"documentations instructions."
+msgstr ""
+"Hai bisogno di aiuto per installare e configurare %s? Si prega di dare "
+"un'occhiata alle nostre istruzioni di documentazione."
+
+#: inc/template-tags.php:195 inc/template-tags.php:202
+msgid "Newer"
+msgstr "Successivo"
+
+#: inc/template-tags.php:176
+msgid "Newer Comments"
+msgstr "Commenti successivi"
+
+#: inc/admin/customizer/customizer.php:247
+msgid "No Repeat"
+msgstr "Non Ripetere"
+
+#: inc/admin/customizer/customizer.php:293
+msgid "Normal"
+msgstr "Normale"
+
+#: inc/structure/starter-wp-page-header.php:100
+msgid "Nothing Found"
+msgstr "Nessun Risultato"
+
+#: inc/template-widgets.php:183
+msgid "Number of posts to show:"
+msgstr "Numero di articoli da mostrare:"
+
+#: inc/template-tags.php:194 inc/template-tags.php:201
+msgid "Older"
+msgstr "Precedente"
+
+#: inc/template-tags.php:172
+msgid "Older Comments"
+msgstr "Commenti Precedenti"
+
+#: inc/structure/starter-wp-page-header.php:74
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Pagina non trovata."
+
+#. %s: Name of current post
+#: inc/structure/starter-wp-content-page.php:49 
+#: inc/structure/starter-wp-content-single.php:92
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: inc/admin/customizer/customizer.php:636
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/admin/welcome/sections/wp-resources.php:33 
+#: inc/admin/welcome/sections/wp-resources.php:53 
+#: inc/admin/welcome/sections/wp-resources.php:72 
+#: inc/admin/welcome/sections/wp-resources.php:91 
+#: inc/admin/welcome/sections/wp-resources.php:110 
+#: inc/admin/welcome/sections/wp-resources.php:129
+msgid "plugin active"
+msgstr "plugin attivo"
+
+#: inc/admin/customizer/customizer.php:466 
+#: inc/admin/customizer/customizer.php:505
+msgid "Post Layout"
+msgstr "Layout articolo"
+
+#: inc/template-tags.php:203
+msgid "Post navigation"
+msgstr "Navigazione articolo"
+
+#: inc/template-widgets.php:179
+msgid "Post type:"
+msgstr "Tipo articolo:"
+
+#: inc/template-tags.php:196
+msgid "Posts navigation"
+msgstr "Navigazione articoli"
+
+#: inc/template-setup.php:37
+msgid "Primary Menu"
+msgstr "Menu Primario"
+
+#: inc/admin/customizer/customizer.php:146
+msgid "Ready for more? go premium"
+msgstr "Pronto ad altro? passa a premium"
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Pronto a pubblicare il tuo primo articolo? <a href=\"%1$s\">Inizia qui</a>."
+
+#: inc/admin/welcome/sections/wp-resources.php:17
+msgid "Recommended Resources"
+msgstr "Risorse Raccomandate"
+
+#: inc/admin/customizer/customizer.php:246
+msgid "Repeat"
+msgstr "Ripeti"
+
+#: inc/admin/welcome/sections/tabs.php:14
+msgid "Resources"
+msgstr "Risorse"
+
+#: inc/admin/customizer/customizer.php:226
+msgid "Right Bottom"
+msgstr "Destra Basso"
+
+#: inc/admin/customizer/customizer.php:225
+msgid "Right Center"
+msgstr "Destra Centro"
+
+#: inc/admin/customizer/customizer.php:224
+msgid "Right Top"
+msgstr "Destra Alto"
+
+#: searchform.php:9
+msgid "Search"
+msgstr "Cerca"
+
+#: woocommerce/product-searchform.php:24
+msgid "Search for:"
+msgstr "Cerca: "
+
+#: inc/admin/customizer/customizer.php:478
+msgid "Search Layout"
+msgstr "Layout Ricerca"
+
+#: woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr "Cerca prodotti&hellip;"
+
+#: inc/structure/starter-wp-page-header.php:98
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Risultati Ricerca per: %s"
+
+#: inc/template-setup.php:38
+msgid "Secondary Menu"
+msgstr "Menu Secondario"
+
+#: inc/admin/welcome/sections/wp-resources.php:107
+msgid ""
+"Sell digital downloads through WordPress with this complete digital "
+"downloads management plugin."
+msgstr ""
+"Vendi prodotti digitali tramite WordPress con questo plugin completo per la "
+"gestione dei download digitali."
+
+#: inc/admin/welcome/sections/wp-resources.php:27
+msgid "Shortpixel"
+msgstr "Shortpixel"
+
+#: inc/template-widgets.php:22
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/admin/customizer/customizer.php:101
+msgid "Site Identity"
+msgstr "Identità Sito"
+
+#: inc/structure/starter-wp-header.php:106
+msgid "Skip to content"
+msgstr "Vai al contenuto"
+
+#: inc/admin/customizer/customizer.php:141
+msgid "Social"
+msgstr "Social"
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Siamo spiacenti, ma nulla corrisponde ai termini di ricerca. Riprova con "
+"delle parole chiave diverse."
+
+#: inc/admin/welcome/sections/wp-resources.php:30
+msgid "Speed up your website with beautifully optimized images."
+msgstr "Velocizza il tuo sito web con immagini perfettamente ottimizzate."
+
+#: inc/admin/welcome/sections/getting-started.php:27
+msgid "Start Customize"
+msgstr "Inizia Pesonalizzazione"
+
+#. Name of the theme
+msgid "Starter WP"
+msgstr "Starter WP"
+
+#: inc/admin/metaboxes/metaboxes.php:73
+msgid "Starter WP Gallery Settings"
+msgstr "Starter WP Impostazioni Galleria"
+
+#. Description of the theme
+msgid ""
+"Starter WP is perfect theme for your next website. Lightweight and highly "
+"extendable, it will enable you to create almost any type of site with a "
+"beautiful and professional design. There are several options to personalize "
+"your website and developers will love his extensible codebase making it a "
+"joy to customize and extend."
+msgstr ""
+"Starter WP è il tema perfetto per il tuo prossimo sito web. Leggero e "
+"altamente estensibile, ti permetterà di creare qualsiasi tipo di sito con un "
+"design bello e professionale. Ci sono diverse opzioni per personalizzare il "
+"tuo sito web e gli sviluppatori adoreranno la versatilità del codice che lo "
+"rende un piacere da personalizzare ed estendere."
+
+#. Base ID
+#: inc/template-widgets.php:101
+msgid "Starter WP Recent Posts"
+msgstr "Starter WP Articoli Recenti"
+
+#: inc/admin/metaboxes/metaboxes.php:38
+msgid "Starter WP Settings"
+msgstr "Starter WP Impostazioni"
+
+#: inc/admin/metaboxes/metaboxes.php:102
+msgid "Starter WP Video Settings"
+msgstr "Starter WP Impostazioni Video"
+
+#: inc/admin/metaboxes/metaboxes.php:48
+msgid "Subtitle"
+msgstr "Sottotitolo"
+
+#: inc/template-tags.php:122
+msgid "Tagged: "
+msgstr "Taggato: "
+
+#: inc/admin/welcome/welcome-screen.php:40
+msgid "Thanks for choosing "
+msgstr "Grazie per aver scelto "
+
+#: inc/structure/starter-wp-footer.php:100
+#, php-format
+msgid "Theme %2$s by %1$s  - Copyright &copy; %3$s %4$s"
+msgstr "Tema %2$s realizzato da %1$s  - Copyright &copy; %3$s %4$s"
+
+#: inc/admin/welcome/sections/getting-started.php:24
+msgid "Theme Customizer"
+msgstr "Customizer Tema"
+
+#: inc/admin/welcome/sections/getting-started.php:17
+msgid "Theme Documentation"
+msgstr "Documentazione Tema"
+
+#: inc/admin/customizer/customizer.php:92
+msgid "Theme Options"
+msgstr "Opzioni Tema"
+
+#: inc/template-widgets.php:175
+msgid "Title:"
+msgstr "Titolo:"
+
+#: inc/admin/customizer/customizer.php:111
+msgid "Top Header"
+msgstr "Top Header"
+
+#: inc/admin/customizer/customizer.php:643
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/admin/customizer/customizer.php:622
+msgid "Twitter"
+msgstr "Twitter"
+
+#: searchform.php:10
+msgid "Type and hit enter&hellip;"
+msgstr "Scrivi e premi enter&hellip;"
+
+#: inc/admin/customizer/customizer.php:678
+msgid "UPGRADE TO PREMIUM"
+msgstr "UPGRADE TO PREMIUM"
+
+#: inc/admin/welcome/sections/getting-started.php:20
+msgid "View Documentation"
+msgstr "Vedi Documentazione"
+
+#: inc/admin/welcome/sections/wp-resources.php:36 
+#: inc/admin/welcome/sections/wp-resources.php:56 
+#: inc/admin/welcome/sections/wp-resources.php:75 
+#: inc/admin/welcome/sections/wp-resources.php:94 
+#: inc/admin/welcome/sections/wp-resources.php:113 
+#: inc/admin/welcome/sections/wp-resources.php:132
+msgid "view now"
+msgstr "vedi ora"
+
+#: inc/admin/welcome/sections/wp-resources.php:66
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/welcome/sections/wp-resources.php:69
+msgid ""
+"WooCommerce is a powerful, extendable eCommerce plugin that helps you sell "
+"anything."
+msgstr ""
+"WooCommerce è un potente e estensibile plugin per eCommerce che ti aiuta a "
+"vendere qualsiasi cosa."
+
+#: inc/plugins/woocommerce-functions.php:32
+msgid "WooCommerce Sidebar"
+msgstr "Sidebar WooCommerce"
+
+#: inc/admin/customizer/customizer.php:352
+msgid "WordPress Theme"
+msgstr "Tema WordPress"
+
+#: inc/admin/welcome/sections/wp-resources.php:49
+msgid ""
+"Write better content and have a fully optimized WordPress site using Yoast "
+"SEO plugin\n"
+"."
+msgstr ""
+"Scrivi contenuti migliori e ottieni di un sito WordPress completamente "
+"ottimizzato utilizzando il plugin Yoast SEO ."
+
+#: inc/admin/welcome/sections/wp-resources.php:46
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: inc/structure/starter-wp-related-posts.php:45
+msgid "You may also like"
+msgstr "Ti potrebbe anche interessare"
+
+#: inc/admin/customizer/customizer.php:671
+msgid "Youtube"
+msgstr "Youtube"

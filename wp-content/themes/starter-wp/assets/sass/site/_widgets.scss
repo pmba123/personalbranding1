@@ -1,0 +1,106 @@
+/*  Widget area
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.widget {
+    margin-bottom: 40px;
+    .widget-title {
+        font-weight: 400;
+    }
+    &.widget_starter_wp_recent_posts_widget{
+        .recent-posts-list {
+            list-style: none;
+            li {
+                clear: both;
+            }
+        }
+        .post-image {
+            float: left;
+            margin: 0 10px 5px 0;
+            width: 50px;
+            height: auto;
+        }
+        .post-date,
+        .post-excerpt {
+            font-size: 1.2rem;
+        }
+        .post-excerpt {
+            display: block;
+        }
+    }
+    &.widget_recent_comments {
+        li {
+            font-size: 1.2rem;
+            display: block;
+            .comment-author-link {
+                display: block;
+                padding: 0;
+                color: $color-quaternary;
+                font-size: 1.5rem;
+                margin: 0;
+                line-height: 1;
+            }
+            &:before {
+                content: "\e02c";
+                font-family: 'simple-line-icons';
+                float: left;
+                font-size: 2rem; 
+                margin-right: 10px;
+                -webkit-font-smoothing: antialiased;
+             }
+        }
+    }
+    &.widget_archive,
+    &.widget_categories {
+        @extend .widget_nav_menu;
+        ul {
+            li {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &.widget_nav_menu {
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                margin: 5px 0 0;
+                padding: 5px 0 0;
+                &:before {
+                    content: "+";
+                    font-size: 12px;
+                    font-weight: 300;
+                    line-height: 1;
+                    float: left;
+                    padding: 3px 5px;
+                    margin: 2px 10px 2px 2px;
+                    background: rgba(7,5,3,0.05);
+                    color: $color-quaternary;
+                }
+                li:before {
+                    background: none;                
+                }
+            }
+        }
+    }
+    &.widget_search {
+   
+    }
+    &.widget_tag_cloud {
+        .tagcloud {
+            a.tag-cloud-link {
+                font-size: 1.2rem !important;
+                padding: 3px 8px;
+                border-radius: .2rem;
+                white-space: nowrap;
+                letter-spacing: 1px;
+                line-height: 2.5em;
+                margin-right: 3px;
+                border:1px solid $color-tertiary;
+                color: $color-quaternary;
+                &:hover {
+                    color: darken($color-quaternary, 30%);
+                }
+            }
+        }
+    }
+}

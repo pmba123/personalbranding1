@@ -1,0 +1,47 @@
+/* Post - Page - Comment
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navigation {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    border-top: 1px solid  $color-tertiary;
+    border-bottom: 1px solid  $color-tertiary;
+    padding: 15px 0;
+    margin: 15px 0 30px 0;
+
+    .nav-next { 
+        float: right;
+        text-align: right;
+        .title {
+            display: block;
+            color: $color-quaternary;
+        }
+        &:after {
+            font-family:'simple-line-icons';
+            content: "\e606";
+            color: $color-quaternary;
+            font-size: 1.4rem;
+            margin: 5px
+        }
+    }
+    .nav-previous { 
+        float: left;
+        .title {
+            display: block;
+            color: $color-quaternary;
+        }
+        &:before {
+            font-family:'simple-line-icons';
+            content:  "\e605";
+            color: $color-quaternary;
+            font-size: 1.4rem;
+            margin: 5px
+        }
+    }
+}
+.page-links {
+    .num {
+        padding: 5px 10px;
+        background: $color-tertiary;
+    }
+}

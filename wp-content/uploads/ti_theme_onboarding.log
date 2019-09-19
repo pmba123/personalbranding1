@@ -1,0 +1,102 @@
+[11/Sep/2019:11:44:59] (ℹ️): WordPress Instance Info:
+[11/Sep/2019:11:44:59] (ℹ️): Home URL : http://pmba.dk/personalbranding
+[11/Sep/2019:11:44:59] (ℹ️): Site URL : http://pmba.dk/personalbranding
+[11/Sep/2019:11:44:59] (ℹ️): WordPress Version : 5.2.3
+[11/Sep/2019:11:44:59] (ℹ️): Onboarding Version : 1.6.3
+[11/Sep/2019:11:44:59] (ℹ️): Multisite : No
+[11/Sep/2019:11:44:59] (ℹ️): Server Info : Apache
+[11/Sep/2019:11:44:59] (ℹ️): PHP Version : 7.1.32
+[11/Sep/2019:11:44:59] (ℹ️): HTTPS : No
+[11/Sep/2019:11:44:59] (ℹ️): PHP Max Execution Time : 300
+[11/Sep/2019:11:44:59] (ℹ️): PHP Max Input Vars : 5000
+[11/Sep/2019:11:44:59] (ℹ️): Max Upload Size : 268435456
+[11/Sep/2019:11:44:59] (ℹ️): Plugins:
+[11/Sep/2019:11:44:59] (ℹ️): [PLUGIN] Elementor : v2.7.1 (Elementor.com)
+[11/Sep/2019:11:44:59] (ℹ️): [PLUGIN] Orbit Fox Companion : v2.8.8 (Themeisle)
+[11/Sep/2019:11:44:59] (ℹ️): [PLUGIN] WPForms Lite : v1.5.5 (WPForms)
+[11/Sep/2019:11:44:59] (✅): Using local XML.
+[11/Sep/2019:11:44:59] (🔵): Starting content import...
+[11/Sep/2019:11:44:59] (✅): Import started.
+[11/Sep/2019:11:44:59] (✅): Parsing XML file.
+[11/Sep/2019:11:44:59] (🔵): Starting parsing file:/var/www/pmba.dk/public_html/personalbranding/wp-content/themes/hestia/onboarding/hestia-default/export.xml
+[11/Sep/2019:11:44:59] (🔵): Using Themeisle_OB_WXR_Parser_SimpleXML...
+[11/Sep/2019:11:44:59] (✅): Parsed XML
+[11/Sep/2019:11:44:59] (🔵): Processing categories...
+[11/Sep/2019:11:44:59] (✅): Processed categories.
+[11/Sep/2019:11:44:59] (🔵): Processing tags...
+[11/Sep/2019:11:44:59] (✅): Processed tags.
+[11/Sep/2019:11:44:59] (🔵): Processing terms...
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_cat Accessories
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_visibility exclude-from-catalog
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_visibility exclude-from-search
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_type external
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_cat Fashion
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_visibility featured
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_type grouped
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_visibility outofstock
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_cat Popular
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_visibility rated-1
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_visibility rated-2
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_visibility rated-3
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_visibility rated-4
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_visibility rated-5
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_type simple
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_cat Trending
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_cat Uncategorized
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import product_type variable
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import action-group wc_update_product_lookup_tables
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (⚠️): Failed to import action-group woocommerce-db-updates
+[11/Sep/2019:11:44:59] (🔴️): Invalid taxonomy.
+[11/Sep/2019:11:44:59] (✅): Processed terms.
+[11/Sep/2019:11:44:59] (🔵): Processing posts...
+[11/Sep/2019:11:44:59] (🔵): Processing single menu item ' '...
+[11/Sep/2019:11:44:59] (🔵): Processing single menu item ' '...
+[11/Sep/2019:11:44:59] (✅): Media 1 already exists.
+[11/Sep/2019:11:44:59] (✅): Media 2 already exists.
+[11/Sep/2019:11:44:59] (✅): Media 3 already exists.
+[11/Sep/2019:11:44:59] (✅): Media 4 already exists.
+[11/Sep/2019:11:44:59] (✅): Media 5 already exists.
+[11/Sep/2019:11:44:59] (✅): Media 6 already exists.
+[11/Sep/2019:11:44:59] (✅): Media 7 already exists.
+[11/Sep/2019:11:44:59] (✅): Media placeholder-image already exists.
+[11/Sep/2019:11:44:59] (✅): Media woocommerce-placeholder already exists.
+[11/Sep/2019:11:44:59] (✅): Media architecture-1 already exists.
+[11/Sep/2019:11:44:59] (✅): Media industrial already exists.
+[11/Sep/2019:11:44:59] (✅): Media umbrella already exists.
+[11/Sep/2019:11:44:59] (✅): Media arnel-hasanovic-jJqd2mc-M9Q-unsplash already exists.
+[11/Sep/2019:11:44:59] (✅): Media artem-beliaikin-v9dffvQaM6k-unsplash already exists.
+[11/Sep/2019:11:44:59] (✅): Media icons8-team-k5fUTay0ghw-unsplash1 already exists.
+[11/Sep/2019:11:44:59] (✅): Media icons8-team-k5fUTay0ghw-unsplash2 already exists.
+[11/Sep/2019:11:44:59] (✅): Page Front Page already exists.
+[11/Sep/2019:11:44:59] (✅): Page Blog already exists.
+[11/Sep/2019:11:44:59] (✅): Processed posts.
+[11/Sep/2019:11:44:59] (🔵): Processing single menu item ' '...
+[11/Sep/2019:11:44:59] (✅): Processed single menu item.
+[11/Sep/2019:11:44:59] (🔵): Processing single menu item ' '...
+[11/Sep/2019:11:44:59] (🔵): Cleaning up import with id ...
+[11/Sep/2019:11:44:59] (🔵): Done cleanup. Flushing cache...
+[11/Sep/2019:11:44:59] (🔵): Flushed cache. Removing temporary data..
+[11/Sep/2019:11:44:59] (✅): Done importing
+[11/Sep/2019:11:44:59] (🔵): Busting elementor cache
+[11/Sep/2019:11:44:59] (✅): Front page set up with id: 4.
+[11/Sep/2019:11:44:59] (🔵): Setting up shop page.
+[11/Sep/2019:11:44:59] (✅): No WooCommerce.

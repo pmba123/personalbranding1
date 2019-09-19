@@ -1,0 +1,185 @@
+// Hide updated date.
+.updated:not(.published) {
+	display: none;
+}
+.single, .page, .error404 {
+    /* Post media
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .video {
+        margin-bottom: 30px;
+    }
+    /* Post meta
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .entry-footer {
+        font-size: .9em;
+        color: $color-quaternary;
+        a {
+            color: $color-quaternary;
+        }
+        .byline, .cat-links, .tags-links, .date {
+            display: inline;
+            &:after {
+                content:"/";
+                margin: 0 5px;
+            }
+        }
+    }
+    .page-links {
+        text-transform: uppercase;
+        .page-number {
+            padding: 5px 8px;
+        }
+    }
+    /* Image
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .post-thumbnail {
+        display: block;
+        margin-bottom:  25px;
+        img {
+            vertical-align: middle;
+        }
+     }
+    /* Author box
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .author-info {
+        background:  $color-tertiary;
+        padding: 25px;
+        margin-top: 60px;
+        border-radius: 3px;
+        .author-name {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+        .author-avatar {
+            float: left;
+            display: inline-block;
+            margin: 0 25px 25px 0;
+        }
+        .author-bio {
+            margin-bottom: 0;
+            color: $color-quaternary;
+        }
+    }
+
+    /* Related posts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .related-posts-title {
+        margin-top: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        &:after {
+            content:'';
+            width: 60px;
+            height: 3px;
+            display: block;
+            text-align: center;
+            background: $color-primary;
+            margin: 5px auto;
+        }
+    }
+    ul.related-posts {
+        list-style: none;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 25px;
+        padding: 0;
+        .related {
+            text-align: center;
+            time {
+                display: block;
+                color: $color-quaternary;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    /* Comment
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .comment-content a {
+        word-wrap: break-word;
+    }
+    .bypostauthor {
+        display: block;
+    }
+    .comment-reply-title,
+    .comments-title {
+        margin-top: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        &:after {
+            content:'';
+            width: 60px;
+            height: 3px;
+            display: block;
+            text-align: center;
+            background: $color-primary;
+            margin: 5px auto;
+        }
+    }
+    .comment-list {
+        list-style: none;
+        padding: 50px;
+        display: block;
+        background: $color-tertiary;
+        .children {
+            margin-left: 48px;
+            list-style: none;
+        }
+        .comment {
+            .avatar {
+                background: #fff;
+                float: left;
+                margin: 0 15px 0 0;
+            }
+            .comment-content,
+            .comment-metadata,
+            .reply {
+                margin-left: 70px;
+            }
+            .comment-metadata,
+            .comment-metadata a {
+                font-size: 1.5rem;
+                color: $color-quaternary;
+            }
+            .comment-reply-login,
+            .comment-reply-link {
+                cursor: pointer;
+                display: inline-block;
+                font-size: 1.2rem;
+                font-weight: 700;
+                letter-spacing: .1rem;
+                padding: 0;
+                text-decoration: none;
+                text-transform: uppercase;
+                white-space: nowrap;
+                margin-bottom: 25px;
+                &:after{
+                    font-family: 'simple-line-icons';
+                    content: "\e606";
+                    font-size: 1rem;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+    .comment-form{
+        textarea::placeholder,
+        input::placeholder {
+            font-size: 1.3rem; 
+        }
+    }
+     /* 404
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .error-404 {
+        text-align: center;
+        input.search-field{
+            display: block;
+            width: 80%;
+            float: none;
+            margin: 0 auto 25px auto;
+            text-align: center;
+            
+        }
+    }
+//end
+}

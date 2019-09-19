@@ -1,0 +1,58 @@
+    .page-header {
+        background:  $color-tertiary;
+        padding: 50px;
+        display: block;
+        margin: 0;
+        text-align: center;
+        .page-header-wrap {
+            display: inline-block;
+            width: 100%;
+            clear: both;
+            text-align: center;
+            // Post title
+            .entry-title {
+                @media screen and (max-width: 768px) { 
+                    font-size: 3.6rem;
+                    margin: 5px 0;
+                }
+                font-size: 4.6rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            // meta
+            .byline, .date {
+                display: inline-block;
+                @extend .entry-footer;
+                margin: 0;
+            }
+            // breadcrumbs
+            .breadcrumbs {
+                @extend .entry-footer;
+                margin-top: 10px;
+            }
+            // Post subtitle
+            .subtitle {
+                color: $color-quaternary;
+                font-size: 2rem;
+                margin: 0;
+                @media screen and (max-width: 768px) { 
+                    font-size: 1.85rem;
+                    margin: 5px 0;
+                }
+            }
+            // description
+            .taxonomy-description {
+                color: $color-quaternary;
+                font-size: 2rem;
+                margin: 10px 0;
+                @media screen and (max-width: 768px) { 
+                    font-size: 1.85rem;
+                    margin: 5px 0;
+                }
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }

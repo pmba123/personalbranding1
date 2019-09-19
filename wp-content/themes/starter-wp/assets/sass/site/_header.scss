@@ -1,0 +1,136 @@
+/* Top header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top-header {
+    background: $color-tertiary;
+    color: $color-quaternary;
+    .social-url {
+        padding:15px 0;
+        a {
+            padding: 0 8px 0 0;
+        }
+    }
+    .text {
+        padding: 15px 0;
+    }
+     .header-nav {
+        list-style: none;
+        margin: 0;
+        padding: 15px 0;
+        li {
+            display: inline-block;
+            margin: 0;
+            a {
+                font-size: .85em;
+                text-transform: uppercase;
+                font-weight: 400;
+                margin-right: 10px;
+                color: $color-quaternary;
+                &:hover {
+                    color: $color-secondary;
+                }
+            }
+        }
+    }
+}
+.has-header-media .top-header {
+    background: rgba(255,255,255,.1)
+}
+.has-header-media {
+    &.light-header-scheme {
+        .site-header {
+            color: #fff;
+            a {
+                color: #fff;
+                &:hover {
+                    color: #fff;
+                }
+            }
+            .button {
+                background: rgba(255, 255, 255, 0.1);
+                border-color: #fff;
+                color: #fff;
+            }
+            .top-header {
+                color: #fff;
+            }
+            h2.title {
+                color: #fff;
+            }
+            #menu-toggle-wrap button.menu-toggle {
+                color: #fff;
+            }
+        }
+    }
+}
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a.custom-logo-link img {
+    margin: 0;
+}
+.site-branding {
+    padding-top:25px;
+    padding-bottom: 25px;
+    
+}
+.site-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 2.5em;
+}
+.site-description {
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    padding: 80px 25px;
+    text-align: center;
+    h2.title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 8rem;
+        margin-bottom: 5px;
+    }
+    .text {
+        text-align: center;
+        font-size: 3rem;
+
+    }
+    .button {
+    }
+}
+.features {
+    text-align: center;
+    .col-container {
+        padding: 60px 25px 40px 25px;
+    }
+    .feature {
+        .title {
+            font-weight: 400;
+            font-size: 2.2rem;
+            margin-bottom: 0;
+        }
+        i {
+            font-size: 4rem;
+        }
+    }
+}
+.has-header-media .site-header {
+  position: relative;
+    .header-media{
+        z-index: -1;
+    }
+    .wp-custom-header-video-button {
+        display: none;
+    }
+    .overlay{
+        background-color: rgba(255,255,255,.1);
+        z-index: -1;
+    }
+}
+.header-widgets-wrap {
+    padding: 50px 25px;
+}

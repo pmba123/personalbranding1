@@ -1,0 +1,113 @@
+/*!
+Theme Name: Starter WP
+Theme URI: https://iograficathemes.com/wordpress-themes/starter-wp
+Author: iografica
+Author URI: https://iograficathemes.com
+Description: Starter WP is perfect theme for your next website. Lightweight and highly extendable, it will enable you to create almost any type of site with a beautiful and professional design. There are several options to personalize your website and developers will love his extensible codebase making it a joy to customize and extend.
+Version: 1.33
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: starter-wp
+Tags:  one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce
+
+This theme, like WordPress, is licensed under the GPL.
+
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Milligram
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "assets/sass/normalize";
+
+/*--------------------------------------------------------------
+# Milligram 1.3.0
+--------------------------------------------------------------*/
+$color-initial: #fff !default
+$color-primary: #9b4dca !default
+$color-secondary: #656361 !default
+$color-tertiary: #f5f3f1 !default
+$color-quaternary: #b5b3b1 !default
+$color-quinary: #e5e3e1 !default
+@import "assets/sass/milligram/milligram";
+/*--------------------------------------------------------------
+# Icon
+--------------------------------------------------------------*/
+@import "assets/sass/simple-line-icons";
+
+/*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+@import "assets/sass/grid/index";
+
+/*--------------------------------------------------------------
+# Flexslider
+--------------------------------------------------------------*/
+@import "assets/sass/flexslider";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "assets/sass/navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "assets/sass/modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "assets/sass/modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "assets/sass/modules/clearings";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "assets/sass/modules/elements";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "assets/sass/layout/layout";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "assets/sass/site/site";
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "assets/sass/modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "assets/sass/media/media";
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+@import "assets/sass/site/plugins";
